@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: master
+
+local_backend: true
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: writing
+    label: Writing
+    folder: src/content
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Date, widget: datetime }
+      - { name: body, label: Body, widget: markdown }
