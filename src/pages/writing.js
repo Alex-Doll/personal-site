@@ -11,7 +11,7 @@ export default function Writing({ data }) {
 	      <Layout>
 	          <SEO title='Writing' />
 	          <h1>Writing</h1>
-            <h2>{data.allMarkdownRemark.nodes.length} Stories</h2>
+            <h2>{data.allMarkdownRemark.totalCount} Stories</h2>
 	          <Link to="/">Home</Link>
             {data.allMarkdownRemark.nodes.map(node => (
                 
@@ -30,7 +30,7 @@ export default function Writing({ data }) {
 }
 
 export const query = graphql`
-    query MyQuery {
+    query {
         allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
             nodes {
                 id
@@ -44,6 +44,7 @@ export const query = graphql`
                     slug
                 }
             }
+            totalCount
         }
     }
 

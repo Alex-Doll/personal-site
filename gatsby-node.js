@@ -16,10 +16,17 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
             value: `/writing${slug}`,
         });
     }
+    if (node.internal.type === `ProjectsYaml`) {
+        const slug = createFilePath({ node, getNode, basePath: 'projects' });
+        createNodeField({
+            node,
+            name: 'slug',
+            value: `/projects${slug}`,
+        });
+    }
 }
 
 exports.createPages = async ({ graphql, actions }) => {
-    const { createPage } = actions
     const result = await graphql(`
     query {
       allMarkdownRemark {
@@ -31,12 +38,32 @@ exports.createPages = async ({ graphql, actions }) => {
           }
         }
       }
+      allProjectsYaml {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
     }
     `);
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        createPage({
+        actions.createPage({
             path: node.fields.slug,
             component: path.resolve(`./src/templates/story.js`),
+            context: {
+                // Data passed to context is available
+                // in page queries as GraphQL variables.
+                slug: node.fields.slug,
+            },
+        });
+    });
+    result.data.allProjectsYaml.edges.forEach(({ node }) => {
+        actions.createPage({
+            path: node.fields.slug,
+            component: path.resolve(`./src/templates/project.js`),
             context: {
                 // Data passed to context is available
                 // in page queries as GraphQL variables.
