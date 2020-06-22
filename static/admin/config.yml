@@ -16,3 +16,13 @@ collections:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: datetime }
       - { name: body, label: Body, widget: markdown }
+  - name: projects
+    label: Projects
+    folder: src/content/projects
+    create: true
+    extension: yml
+    fields:
+      - { name: title, label: Title }
+      - { name: description, label: Description, widget: text }
+      - { name: linkTo, label: Link To Project, widget: string }
+      - { name: technologiesUsed, label: Technologies Used, widget: list }

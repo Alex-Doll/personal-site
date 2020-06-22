@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Alex Doll Personal Site`,
-    description: `A place to put my various projects and things that I am working on!`,
-    author: `@alexdoll`,
+      title: `Alex Doll Personal Site`,
+      description: `A place to put my various projects and things that I am working on!`,
+      author: `@alexdoll`,
   },
-  plugins: [
-    `gatsby-plugin-react-helmet`,
-    {
+    plugins: [
+        `gatsby-alias-imports`,
+        `gatsby-plugin-react-helmet`,
+        {
       resolve: `gatsby-source-filesystem`,
       options: {
           name: `images`,
@@ -31,6 +32,7 @@ module.exports = {
       `gatsby-transformer-yaml`,
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sharp`,
+      `gatsby-plugin-theme-ui`,
       `gatsby-plugin-netlify-cms`,
       {
       resolve: `gatsby-plugin-manifest`,

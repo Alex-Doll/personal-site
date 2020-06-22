@@ -13,7 +13,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         createNodeField({
             node,
             name: 'slug',
-            value: `/writing${slug}`,
+            value: `/writing/stories${slug}`,
         });
     }
     if (node.internal.type === `ProjectsYaml`) {

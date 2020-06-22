@@ -1,9 +1,9 @@
-import { graphql, Link } from "gatsby"
-import PropTypes from "prop-types"
+import { graphql } from "gatsby"
 import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from '../components/link';
 
 
 export default function Projects({ data }) {

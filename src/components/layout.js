@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx, Link } from 'theme-ui';
 /**
  * Layout component that queries for data
  * with Gatsby's useStaticQuery component
@@ -5,7 +7,7 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
+import React from 'react';  // eslint-disable-line no-unused-vars
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -21,7 +23,7 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>
@@ -37,7 +39,7 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <Link href="https://www.gatsbyjs.org">Gatsby</Link>
         </footer>
       </div>
     </>

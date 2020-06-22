@@ -1,8 +1,10 @@
 imgSrc: fallingStars
 title: Falling Stars
-description: This simple game built in the Phaser JavaScript game engine is simple to play but hard to master
+description: This simple game built in the Phaser JavaScript game engine is
+  simple to play but hard to master
 linkTo: https://play-falling-stars.herokuapp.com/
 technologiesUsed:
   - JavaScript
   - Node
   - Game
+  - Canvas

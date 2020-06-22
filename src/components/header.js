@@ -1,40 +1,57 @@
-import { Link } from "gatsby"
+/** @jsx jsx */
+import { Button, jsx, useColorMode } from 'theme-ui';
+
 import PropTypes from "prop-types"
-import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+import { Link } from "./link"
+import { NavLink } from './navLink';
+
+function Header({ siteTitle }) {
+    const [colorMode, setColorMode] = useColorMode();
+
+    return (
+        <header
+            sx={{
+                backgroundColor: 'background',
+                boxShadow: 'bottom',
+                marginBottom: 4,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                padding: [2, 3, 4],
+            }}
         >
-          {siteTitle}
-        </Link>
-	</h1>
-
-	<Link to='/writing'>Writing</Link>
-	<Link to='/music'>Music</Link>
-	<Link to='/projects'>Projects</Link>
-	<Link to='/about'>About</Link>
-    </div>
-  </header>
-)
+            <h1>
+                <Link to="/">
+                    {siteTitle}
+                </Link>
+	          </h1>
+            <nav
+                sx={{
+                    '& > *': {
+                        marginLeft: [2, 3, 4],
+                    },
+                    '& :first-child': {
+                        marginLeft: 0,
+                    },
+                }}
+            >
+	              <NavLink to='/writing' text='Writing' />
+	              <NavLink to='/music' text='Music' />
+	              <NavLink to='/projects' text='Projects' />
+	              <NavLink to='/about' text='About' />
+                <Button
+                    sx={{
+                        marginLeft: [2, 3, 4],
+                    }}
+                    onClick={() => setColorMode(colorMode === 'default' ? 'light' : 'default')}
+                >
+                    Mode: {colorMode === 'default' ? 'Dark' : 'Light'}
+                </Button>
+            </nav>
+        </header>
+    );
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
