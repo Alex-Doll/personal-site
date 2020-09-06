@@ -1,0 +1,12 @@
+title: Canvas Creations
+description: Check out some of the coolest creations on the internet using the
+  HTML 5 canvas element or post your own!
+imageSrc: /assets/canvas-creations.24b5717b.png
+linkTo: https://canvas-creations.herokuapp.com/
+technologiesUsed:
+  - JavaScript
+  - Node
+  - Express
+  - Mongo
+  - Rest
+  - Auth

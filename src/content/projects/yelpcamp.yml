@@ -1,0 +1,11 @@
+title: YelpCamp
+description: This "Yelp!" clone will help you find the best campgrounds around.
+imageSrc: /assets/yelp-camp.514ce37f.png
+linkTo: https://yelp-camp-1010.herokuapp.com/
+technologiesUsed:
+  - JavaScript
+  - Node
+  - Express
+  - Mongo
+  - Rest
+  - Auth

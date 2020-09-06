@@ -1,0 +1,12 @@
+title: Warbler
+description: Want to see a basic clone of Twitter? Then Warbler is the web app for you!
+imageSrc: /assets/warbler.fa574698.png
+linkTo: https://warbler-1010.herokuapp.com/
+technologiesUsed:
+  - JavaScript
+  - React
+  - Node
+  - Express
+  - Mongo
+  - Rest
+  - Auth

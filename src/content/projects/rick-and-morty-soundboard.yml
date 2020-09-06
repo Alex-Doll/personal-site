@@ -1,0 +1,8 @@
+title: Rick and Morty Soundboard
+description: Playback your favorite quotes from the hit TV show "Rick and Morty"
+imageSrc: /assets/rick-morty.fdffa1ef.png
+linkTo: https://rick-morty-soundboard.herokuapp.com/
+technologiesUsed:
+  - JavaScript
+  - React
+  - Audio
