@@ -8,16 +8,26 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - name: writing
-    label: Writing
-    folder: src/content
+  - label: Writing
+    name: writing
+    files:
+      - label: References
+        name: references
+        file: src/content/writing/references.md
+        fields:
+          - { name: title, label: Title }
+          - { name: date, label: Date, widget: datetime }
+          - { name: body, label: Body, widget: markdown }
+  - label: Stories
+    name: stories
+    folder: src/content/writing/stories
     create: true
     fields:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: datetime }
       - { name: body, label: Body, widget: markdown }
-  - name: projects
-    label: Projects
+  - label: Projects
+    name: projects
     folder: src/content/projects
     create: true
     extension: yml

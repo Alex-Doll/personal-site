@@ -13,7 +13,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         createNodeField({
             node,
             name: 'slug',
-            value: `/writing/stories${slug}`,
+            value: `/writing${slug}`,
         });
     }
     if (node.internal.type === `ProjectsYaml`) {
@@ -50,6 +50,9 @@ exports.createPages = async ({ graphql, actions }) => {
     }
     `);
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        if (!node.fields.slug.includes('stories/')) {
+            return;
+        }
         actions.createPage({
             path: node.fields.slug,
             component: path.resolve(`./src/templates/story.js`),

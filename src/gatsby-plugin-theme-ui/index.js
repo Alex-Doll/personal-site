@@ -98,11 +98,26 @@ export default {
         p: {
             variant: 'text.default',
         },
+        heading: {
+            variant: 'text.heading',
+        },
     },
     markdown: {
         story: {
             '& > p': {
                 variant: 'styles.p',
+            },
+        },
+        references: {
+            '& > p': {
+                variant: 'styles.p',
+            },
+            '& > h3': {
+                variant: 'styles.heading',
+                marginTop: 6,
+            },
+            '& a': {
+                variant: 'styles.a',
             },
         },
     },
