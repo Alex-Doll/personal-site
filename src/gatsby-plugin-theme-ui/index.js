@@ -79,6 +79,14 @@ export default {
             fontFamily: 'monospace',
         },
     },
+    cards: {
+        primary: {
+            padding: 3,
+            border: '1px dotted',
+            borderColor: 'muted',
+            boxShadow: 'bottom',
+        },
+    },
     styles: {
         a: {
             color: 'primary',

@@ -1,18 +1,19 @@
+import { Link } from 'theme-ui';
 import { graphql } from 'gatsby';
 import React from "react";
 import Layout from "../components/layout";
 
-import { Link } from '../components/link';
+import { Link as AppLink } from '../components/link';
 
 export default function Project({ data }) {
     const project = data.projectsYaml;
     return (
         <Layout>
-            <Link to='/projects'>Back</Link>
+            <AppLink to='/projects'>Back</AppLink>
             <div>
                 <h1>{project.title}</h1>
                 <p>{project.desctiption}</p>
-                <a href={project.linkTo} taget='_blank'>Visit</a>
+                <Link href={project.linkTo} target='_blank'>Visit</Link>
                 <ul>
                     {project.technologiesUsed.map((name, index) => (
                         <li key={index}>{name}</li>

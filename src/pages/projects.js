@@ -1,5 +1,6 @@
+/** @jsx jsx */
+import { Card, jsx } from 'theme-ui';
 import { graphql } from "gatsby"
-import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -15,14 +16,14 @@ export default function Projects({ data }) {
 	          <Link to="/">Home</Link>
             {data.allProjectsYaml.nodes.map(node => (
                 
-                <div key={node.id} style={{ border: '1px solid gray', borderRadius: 3 }}>
+                <Card key={node.id} sx={{ marginBottom: 4 }}>
                     <h3>
                         <Link to={node.fields.slug}>
                             {node.title}
                         </Link>
                     </h3>
                     <p>{node.description}</p>
-                </div>
+                </Card>
                 
             ))}
 	      </Layout>

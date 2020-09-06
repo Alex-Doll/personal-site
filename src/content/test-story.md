@@ -1,10 +1,8 @@
 ---
-title: "Test Story"
-date: "2020-06-09"
+title: Test Story
+date: 2020-06-09
 ---
-
-This story is simply a test.
-However, it needs to just become a true story,
+This story is simply a test. However, it needs to just become a true story,
 so it continues with its thoughts
 scouring itself for a story.
 But alas, it's already a story even if it's just a test.

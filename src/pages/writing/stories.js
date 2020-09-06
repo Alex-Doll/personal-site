@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { Heading, jsx, Text } from 'theme-ui';
+import { Card, Heading, jsx, Text } from 'theme-ui';
 
 import { graphql } from "gatsby";
 
@@ -18,16 +18,7 @@ export default function Stories({ data }) {
             </section>
             {data.allMarkdownRemark.nodes.map(node => (
                 
-                <section
-                    key={node.id}
-                    sx={{
-                        marginBottom: 5,
-                        padding: 3,
-                        border: '1px dotted',
-                        borderColor: 'muted',
-                        boxShadow: 'bottom',
-                    }}
-                >
+                <Card key={node.id} sx={{ marginBottom: 5 }}>
                     <Heading>
                         <Link to={node.fields.slug}>
                             {node.frontmatter.title}
@@ -45,7 +36,7 @@ export default function Stories({ data }) {
                     >
                         {node.excerpt}
                     </Text>
-                </section>
+                </Card>
                 
             ))}
             <Link to='/writing' variant='mono'>Back</Link>
