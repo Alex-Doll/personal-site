@@ -1,5 +1,6 @@
 import { Link } from 'theme-ui';
 import { graphql } from 'gatsby';
+import Img from "gatsby-image";
 import React from "react";
 import Layout from "../components/layout";
 
@@ -11,6 +12,9 @@ export default function Project({ data }) {
         <Layout>
             <AppLink to='/projects'>Back</AppLink>
             <div>
+                {data.projectImage && (
+                    <Img fluid={data.projectImage.childImageSharp.fluid} />
+                )}
                 <h1>{project.title}</h1>
                 <p>{project.desctiption}</p>
                 <Link href={project.linkTo} target='_blank'>Visit</Link>
@@ -25,13 +29,20 @@ export default function Project({ data }) {
 }
 
 export const query = graphql`
-    query($slug: String!) {
+    query($slug: String!, $imageSrc: String) {
         projectsYaml(fields: { slug: { eq: $slug } }) {
-            imgSrc
             title
             description
+            imageSrc
             linkTo
             technologiesUsed
+        }
+        projectImage: file(relativePath: {eq: $imageSrc}) {
+            childImageSharp {
+                fluid {
+                    ...GatsbyImageSharpFluid
+                }
+            }
         }
     }
 `;

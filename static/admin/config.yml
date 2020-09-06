@@ -43,5 +43,6 @@ collections:
     fields:
       - { name: title, label: Title }
       - { name: description, label: Description, widget: text }
+      - { name: imageSrc, label: Image, widget: image }
       - { name: linkTo, label: Link To Project, widget: string }
       - { name: technologiesUsed, label: Technologies Used, widget: list }

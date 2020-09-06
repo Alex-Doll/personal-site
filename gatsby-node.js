@@ -44,6 +44,7 @@ exports.createPages = async ({ graphql, actions }) => {
             fields {
               slug
             }
+            imageSrc
           }
         }
       }
@@ -70,6 +71,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 // Data passed to context is available
                 // in page queries as GraphQL variables.
                 slug: node.fields.slug,
+                imageSrc: node.imageSrc ? /\/assets\/(.*)/.exec(node.imageSrc)[1] : '',
             },
         });
     });

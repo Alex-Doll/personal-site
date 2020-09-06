@@ -1,33 +1,33 @@
 module.exports = {
-  siteMetadata: {
-      title: `Alex Doll Personal Site`,
-      description: `A place to put my various projects and things that I am working on!`,
-      author: `@alexdoll`,
-  },
+    siteMetadata: {
+        title: `Alex Doll Personal Site`,
+        description: `A place to put my various projects and things that I am working on!`,
+        author: `@alexdoll`,
+    },
     plugins: [
         `gatsby-alias-imports`,
         `gatsby-plugin-react-helmet`,
         {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-          name: `images`,
-          path: `${__dirname}/src/images`,
-      },
-    },
-      {
-          resolve: `gatsby-source-filesystem`,
-          options: {
-              name: `content`,
-              path: `${__dirname}/src/content`,
-          },
-      },
-      {
-          resolve: `gatsby-source-filesystem`,
-          options: {
-              name: `projects`,
-              path: `${__dirname}/src/content/projects`,
-          },
-      },
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `${__dirname}/src/images`,
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `${__dirname}/static/assets`,
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `content`,
+                path: `${__dirname}/src/content`,
+            },
+        },
         {
             resolve: `gatsby-transformer-remark`,
             options: {
