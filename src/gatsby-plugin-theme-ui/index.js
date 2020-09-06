@@ -103,6 +103,17 @@ export default {
         },
     },
     markdown: {
+        page: {
+            '& p': {
+                variant: 'styles.p',
+            },
+            '& h3': {
+                variant: 'styles.heading',
+            },
+            '& a': {
+                variant: 'styles.a',
+            },
+        },
         story: {
             '& > p': {
                 variant: 'styles.p',
