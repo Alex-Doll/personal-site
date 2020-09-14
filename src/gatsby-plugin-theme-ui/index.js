@@ -81,6 +81,23 @@ export default {
     },
     cards: {
         primary: {
+            border: '1px solid transparent',
+            borderRadius: 4,
+            boxShadow: 'bottom',
+            marginY: 4,
+            marginX: 'auto',
+            padding: 1,
+            maxWidth: 280,
+        },
+        actionable: {
+            variant: 'cards.primary',
+            ':hover': {
+                border: '1px solid',
+                borderColor: 'secondary',
+                padding: 1,
+            },
+        },
+        list: {
             padding: 3,
             border: '1px dotted',
             borderColor: 'muted',

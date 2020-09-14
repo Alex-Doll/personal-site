@@ -18,7 +18,7 @@ export default function Stories({ data }) {
             </section>
             {data.allMarkdownRemark.nodes.map(node => (
                 
-                <Card key={node.id} sx={{ marginBottom: 5 }}>
+                <Card key={node.id} sx={{ marginBottom: 5 }} variant='list'>
                     <Heading>
                         <Link to={node.fields.slug}>
                             {node.frontmatter.title}
