@@ -95,6 +95,7 @@ export default {
                 border: '1px solid',
                 borderColor: 'secondary',
                 padding: 1,
+                cursor: 'pointer',
             },
         },
         list: {
