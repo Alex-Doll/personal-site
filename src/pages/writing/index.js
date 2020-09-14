@@ -31,7 +31,7 @@ export default function Writing({ data }) {
 
 export const query = graphql`
     query {
-        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 1) {
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 1, filter: {fields: {slug: {regex: "/\\/writing\\/stories\\//"}}}) {
             nodes {
                 id
                 timeToRead

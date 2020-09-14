@@ -11,6 +11,13 @@ collections:
   - label: Pages
     name: pages
     files:
+      - label: Landing
+        name: landing
+        file: src/content/landing.md
+        fields:
+          - { name: title, label: Title }
+          - { name: subtitle, label: Subtitle }
+          - { name: body, label: Body, widget: markdown }
       - label: About
         name: about
         file: src/content/about.md

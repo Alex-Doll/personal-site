@@ -51,6 +51,7 @@ module.exports = {
         `gatsby-plugin-sharp`,
         `gatsby-plugin-theme-ui`,
         `gatsby-plugin-netlify-cms`,
+        `gatsby-plugin-catch-links`,
         {
       resolve: `gatsby-plugin-manifest`,
       options: {

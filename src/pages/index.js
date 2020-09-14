@@ -1,22 +1,52 @@
-import React from "react"
+/** @jsx jsx */
+
+import { graphql } from 'gatsby';
+import { Heading, jsx } from 'theme-ui';
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import { Link } from '../components/link';
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+const IndexPage = ({ data }) => (
+    <Layout>
+        <SEO title="Home" />
+        <article>
+            <section sx={{ textAlign: 'center' }}>
+                <Heading as='h1'>{data.markdownRemark.frontmatter.title}</Heading>
+                <Heading as='h4'>{data.markdownRemark.frontmatter.subtitle}</Heading>
+            </section>
+            <hr
+                sx={{
+                    marginY: 4,
+                    border: 0,
+                    height: 1,
+                    backgroundImage: theme => `linear-gradient(to right, ${theme.colors.background}, ${theme.colors.muted}, ${theme.colors.background})`,
+                }}
+            />
+            <div
+                sx={{
+                    variant: 'markdown.page',
+                    '> *': {
+                        marginY: 6,
+                    },
+                }}
+                dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
+            />
+        </article>
+    </Layout>
 )
 
 export default IndexPage
+
+export const query = graphql`
+    query {
+        markdownRemark(fields: { slug: { eq: "/landing/" } }) {
+            html
+            frontmatter {
+                title
+                subtitle
+            }
+        }
+    }
+`;
