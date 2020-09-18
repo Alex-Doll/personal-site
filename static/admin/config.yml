@@ -42,6 +42,24 @@ collections:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: datetime }
       - { name: body, label: Body, widget: markdown }
+  - label: Music
+    name: music
+    files:
+      - label: References
+        name: references
+        file: src/content/music/references.md
+        fields:
+          - { name: title, label: Title }
+          - { name: date, label: Date, widget: datetime }
+          - { name: body, label: Body, widget: markdown }
+  - label: Albums
+    name: albums
+    folder: src/content/music/albums
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Date, widget: datetime }
+      - { name: body, label: Body, widget: markdown }
   - label: Projects
     name: projects
     folder: src/content/projects

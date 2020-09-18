@@ -17,7 +17,6 @@ export default function Stories({ data }) {
                 <Heading as='h3'>Total Stories Written: {data.allMarkdownRemark.totalCount}</Heading>
             </section>
             {data.allMarkdownRemark.nodes.map(node => (
-                
                 <Card key={node.id} sx={{ marginBottom: 5 }} variant='list'>
                     <Heading>
                         <Link to={node.fields.slug}>
