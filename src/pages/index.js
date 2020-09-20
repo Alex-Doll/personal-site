@@ -4,9 +4,7 @@ import { graphql } from 'gatsby';
 import { Heading, jsx } from 'theme-ui';
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import { Link } from '../components/link';
 
 const IndexPage = ({ data }) => (
     <Layout>
