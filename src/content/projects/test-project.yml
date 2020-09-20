@@ -1,8 +1,0 @@
-title: Test Project
-description: This is just to test that image upload works for projects with the
-  live netlify cms
-imageSrc: /assets/glitch-vaporwave-computer-cyberpunk-desktop-computers-glitch-art-seapunk-aesthetics-png-clip-art.png
-linkTo: https://www.google.com/
-technologiesUsed:
-  - GatsbyJS
-  - Something Else
