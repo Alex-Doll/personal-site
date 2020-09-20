@@ -1,58 +1,58 @@
 module.exports = {
-    siteMetadata: {
-        title: `Alex Doll Personal Site`,
-        description: `A place to put my various projects and things that I am working on!`,
-        author: `@alexdoll`,
+  siteMetadata: {
+    title: `Alex Doll Personal Site`,
+    description: `A place to put my various projects and things that I am working on!`,
+    author: `@alexdoll`,
+  },
+  plugins: [
+    `gatsby-alias-imports`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
     },
-    plugins: [
-        `gatsby-alias-imports`,
-        `gatsby-plugin-react-helmet`,
-        {
-            resolve: `gatsby-source-filesystem`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/static/assets`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/src/content`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-embedder`,
             options: {
-                name: `images`,
-                path: `${__dirname}/src/images`,
+              customTransformers: [
+                // Your custom transformers
+              ],
+              services: {
+                // The service-specific options by the name of the service
+              },
             },
-        },
-        {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-                name: `images`,
-                path: `${__dirname}/static/assets`,
-            },
-        },
-        {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-                name: `content`,
-                path: `${__dirname}/src/content`,
-            },
-        },
-        {
-            resolve: `gatsby-transformer-remark`,
-            options: {
-                plugins: [
-                    {
-                        resolve: `gatsby-remark-embedder`,
-                        options: {
-                            customTransformers: [
-                                // Your custom transformers
-                            ],
-                            services: {
-                                // The service-specific options by the name of the service
-                            },
-                        },
-                    },
-                ],
-            },
-        },
-        `gatsby-transformer-yaml`,
-        `gatsby-transformer-sharp`,
-        `gatsby-plugin-sharp`,
-        `gatsby-plugin-theme-ui`,
-        `gatsby-plugin-netlify-cms`,
-        `gatsby-plugin-catch-links`,
-        {
+          },
+        ],
+      },
+    },
+    `gatsby-transformer-yaml`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-theme-ui`,
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-catch-links`,
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
@@ -68,4 +68,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
