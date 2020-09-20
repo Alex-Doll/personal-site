@@ -142,8 +142,9 @@ export default {
                 variant: 'styles.p',
             },
             '& > h3': {
-                variant: 'styles.heading',
+                variant: 'styles.headingo',
                 marginTop: 6,
+                marginBottom: 5,
             },
             '& a': {
                 variant: 'styles.a',
