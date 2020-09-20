@@ -62,6 +62,17 @@ exports.createPages = async ({ graphql, actions }) => {
                 },
             });
         }
+        if (node.fields.slug.includes('/music/albums/')) {
+            actions.createPage({
+                path: node.fields.slug,
+                component: path.resolve(`./src/templates/album.js`),
+                context: {
+                    // Data passed to context is available
+                    // in page queries as GraphQL variables.
+                    slug: node.fields.slug,
+                },
+            });
+        }
     });
     result.data.allProjectsYaml.edges.forEach(({ node }) => {
         actions.createPage({
