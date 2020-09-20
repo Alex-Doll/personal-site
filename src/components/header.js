@@ -44,13 +44,38 @@ function Header({ siteTitle }) {
                     sx={{
                         marginLeft: [2, 3, 4],
                     }}
-                    onClick={() => setColorMode(colorMode === 'default' ? 'light' : 'default')}
+                    onClick={() => switchColorMode()}
                 >
-                    Mode: {colorMode === 'default' ? 'Dark' : 'Light'}
+                    Mode: {getColorModeText()}
                 </Button>
             </nav>
         </header>
     );
+
+    function switchColorMode() {
+        switch (colorMode) {
+            case 'default':
+                setColorMode('light');
+                return;
+            case 'light':
+                setColorMode('toxic');
+                return;
+            case 'toxic':
+                setColorMode('default');
+                return;
+            default:
+                setColorMode('default');
+                return;
+        }
+    }
+
+    function getColorModeText() {
+        if (colorMode === 'default') {
+            return 'Dark';
+        }
+
+        return `${colorMode[0].toUpperCase()}${colorMode.slice(1)}`;
+    }
 }
 
 Header.propTypes = {
