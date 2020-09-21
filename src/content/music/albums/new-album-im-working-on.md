@@ -2,4 +2,61 @@
 title: New Album I'm Working On
 date: 2020-09-20T22:44:05.589Z
 ---
-So far I don't really have anything in this project done yet, but mainly right now I am just testing out to see if the live version of the netlify cms is working!
+#### 4. Assign a title to each story point
+**Untitled Album**
+1. *In the Rear-View Mirror*
+2. *Yearn to Turn*
+3. *Turn Back*
+4. *Face It, But How?*
+5. *This Time I Was Wrong*
+6. *Too Little, Too Late*
+7. *Again*
+8. *Next Time*
+
+---
+
+#### 2. Pick a story structure
+For this one I'm going to use <a href='/writing/references'>Dan Harmon's story circle</a> because that should break down into 8 nicely formed songs. Each point is less plot driven and more character driven which is perfect for me because I've been finding that translating story to music doesn't necessarily work best as a 1-to-1 translation. For me (at least for now), music is best at conveying emotion, so while the album as a whole will be conveying some underlying story, the songs would each just be hitting the emotion that needs to be conveyed during that portion of the story. At least that's what I'm going for this time lol.
+
+#### 3. Write a short version of each point in the chosen story structure
+**Untitled Album**
+1. *A character is in a zone of comfort* - The character is alone and running away. The fact that they are alone and running is the part that is familiar to them, which he will return to in the end. Currently they believe running away from your problems will solve them by just letting them blow over. I'm picturing someone driving away in the dark.
+
+2. *But they want something* - The character wants to not have to run away every time there’s a problem.
+
+3. *They enter an unfamiliar situation* - They begin to realize that to not have to run away means they have to stay there, but if they stay there the problem can’t just go away and this is unfamiliar to them they don’t know how to deal with it. He turns around at this point
+
+4. *Adapt to it* - They realize that since the problem can’t go away on its own that maybe they have to actually face the problem. He’s never gone back to face a problem before. He doesn’t know what to say, how to feel. He’s trying out different phrasings, greetings, anything answer everything.
+
+5. *Get what they wanted* - He finally meets with her face-to-face and apologizes to her for what he did. He stumbles a lot but finally says he’s ready to face the problem
+
+6. *Pay a heavy price for it* - She lets them know that it’s too little too late and they can no longer be together because of how many times this is happened and she kicks him out. She lets him know that if this is what he had done a long time ago, it wouldn’t have come to this
+
+7. *Then return to their familiar situation* - The character is alone again. He is having to leave after being kicked out. I'm imagining the first step again where he is by himself getting back into his car and driving off alone.
+
+8. *Having changed* - The character knows that not fixing problems makes them build up and that facing problems solve them. While he may still be alone (his familiar situation), he now knows that he has the courage and the ability to face his problems head on instead of running. Because of her feedback, he also realizes that so long as he always faces his problems head on instead of running from them, he won't end up alone the next time.
+
+---
+
+#### 1. Pick an idea to write about
+I had an image in my head of someone awaking in a car, driving away from unknown situation. Maybe this person, would find out that they were running from something bad that they had done. I liked the idea of the person then having to return to face what they had done but it was too late.
+
+---
+
+For this album I want to try and establish a more systematic approach for creating an album. I honestly haven't made music in over 6 years I think (the last thing I released being the "Beyond The Wall" album back at the end of 2014). So here's my current thinking for how to make an album. I'm going to try this process out for this album and then see where I need to tweak it moving forward for the next album.
+
+**Album Writing Process**
+1. Pick an idea to write about
+2. Pick a story structure
+3. Write a short version of each point in the chosen story structure
+4. Assign a title to each story point
+5. Assign the most appropriate song map to each story point
+6. Make a writable idea for each story point
+7. Write the music/lyrics for each writable idea
+    * **CONSTRAINT:** 4 Instrument Max Per Song
+8. Produce/mix/master each song!
+9. Done! 😃
+
+I realize that the album writing process has more granular steps in the first phase of ideation/writing whereas things like full composition and songwriting is boiled down to 1 step as well as the actual production of the song. I've been spending much more time recently really diving into writing and storytelling, so I think over time as I dive more into topics like songwriting, composition, production, mixing, and mastering, those steps will be expanded into smaller chunks.
+
+Lastly, I wanted to put the constraint of using no more than 4 different instruments per song because that was something that I feel like actually really hindered me years ago, the freedom to do anything and everything. Having the constraint should take away the way too many choices previously available to me and force me to really focus on providing quality over quantity in my sounds.
