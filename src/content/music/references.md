@@ -87,6 +87,30 @@ date: 2020-09-18T21:27:11.421Z
         * **Bridge** - Timezone 3/Payoff
         * **Chorus 3** - Title
     4. Places
+        * **Verse 1** - Place 1 - the story begins
+        * **Chorus 1** - Title
+        * **Verse 2** - Place 2 - the story moves on
+        * **Chorus 2** - Title
+        * **Bridge** - Place 3/Payoff
+        * **Chorus 3** - Title
     5. Roles
+        * **Verse 1** - Role 1
+        * **Chorus 1** - Title
+        * **Verse 2** - Role 2
+        * **Chorus 2** - Title
+        * **Bridge** - Role 3/Payoff
+        * **Chorus 3** - Title
     6. Twist
+        * **Verse 1** - meaning 1
+        * **Chorus 1** - Title
+        * **Verse 2** - meaning 2
+        * **Chorus 2** - Title
+        * **Bridge** - Payoff
+        * **Chorus 3** - Title
     7. Literal/Figurative
+        * **Verse 1** - Literal
+        * **Chorus 1** - Title
+        * **Verse 2** - Figurative
+        * **Chorus 2** - Title
+        * **Bridge** - Payoff
+        * **Chorus 3** - Title
