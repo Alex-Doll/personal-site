@@ -2,6 +2,19 @@
 title: New Album I'm Working On
 date: 2020-09-20T22:44:05.589Z
 ---
+#### 5. Assign the most appropriate song map to each story point
+**Untitled Album**
+1. *In the Rear-View Mirror* - Literal/Figurative
+2. *Yearn to Turn* - Tension/Response
+3. *Turn Back* - Problem/Declaration
+4. *Face It, But How?* - Tension/Response
+5. *This Time I Was Wrong* - Roles
+6. *Too Little, Too Late* - Roles
+7. *Again* - Places
+8. *Next Time* - Timezones
+
+---
+
 #### 4. Assign a title to each story point
 **Untitled Album**
 1. *In the Rear-View Mirror*
