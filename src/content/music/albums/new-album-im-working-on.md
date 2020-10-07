@@ -2,6 +2,67 @@
 title: New Album I'm Working On
 date: 2020-09-20T22:44:05.589Z
 ---
+#### 6. Make a writable idea for each story point
+**Untitled Album**
+1. *In the Rear-View Mirror* - Literal/Figurative
+    - **Verse 1** - Literal
+    - **Chorus 1** - Title
+    - **Verse 2** - Figurative
+    - **Chorus 2** - Title
+    - **Bridge** - Payoff
+    - **Chorus 3** - Title
+2. *Yearn to Turn* - Tension/Response
+    - **Verse 1** - How the tension is sensed
+    - **Chorus 1** - The response
+    - **Verse 2** - How the response is sensed
+    - **Chorus 2** - The response
+    - **Bridge** - How I feel about the response
+    - **Chorus 3** - The response
+3. *Turn Back* - Problem/Declaration
+    - **Verse 1** - The problem
+    - **Chorus 1** - Declaration
+    - **Verse 2** - The response
+    - **Chorus 2** - Declaration
+    - **Bridge** - What it means
+    - **Chorus 3** - Declaration
+4. *Face It, But How?* - Tension/Response
+    - **Verse 1** - How the tension is sensed
+    - **Chorus 1** - The response
+    - **Verse 2** - How the response is sensed
+    - **Chorus 2** - The response
+    - **Bridge** - How I feel about the response
+    - **Chorus 3** - The response
+5. *This Time I Was Wrong* - Roles
+    - **Verse 1** - Role 1
+    - **Chorus 1** - Title
+    - **Verse 2** - Role 2
+    - **Chorus 2** - Title
+    - **Bridge** - Role 3/Payoff
+    - **Chorus 3** - Title
+6. *Too Little, Too Late* - Roles
+    - **Verse 1** - Role 1
+    - **Chorus 1** - Title
+    - **Verse 2** - Role 2
+    - **Chorus 2** - Title
+    - **Bridge** - Role 3/Payoff
+    - **Chorus 3** - Title
+7. *Again* - Places
+    - **Verse 1** - Place 1 - the story begins
+    - **Chorus 1** - Title
+    - **Verse 2** - Place 2 - the story moves on
+    - **Chorus 2** - Title
+    - **Bridge** - Place 3/Payoff
+    - **Chorus 3** - Title
+8. *Next Time* - Timezones
+    - **Verse 1** - Timezone 1 - the story begins
+    - **Chorus 1** - Title
+    - **Verse 2** - Timezone 2 - the story moves on
+    - **Chorus 2** - Title
+    - **Bridge** - Timezone 3/Payoff
+    - **Chorus 3** - Title
+
+---
+
 #### 5. Assign the most appropriate song map to each story point
 **Untitled Album**
 1. *In the Rear-View Mirror* - Literal/Figurative
