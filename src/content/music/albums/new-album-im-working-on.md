@@ -5,12 +5,12 @@ date: 2020-09-20T22:44:05.589Z
 #### 6. Make a writable idea for each story point
 **Untitled Album**
 1. *In the Rear-View Mirror* - Literal/Figurative
-    - **Verse 1** - Literal
-    - **Chorus 1** - Title
-    - **Verse 2** - Figurative
-    - **Chorus 2** - Title
-    - **Bridge** - Payoff
-    - **Chorus 3** - Title
+    - **Verse 1** - Literal: Driving away, late night the house shrinks behind me. Looking forward there is open road and darkness, the mirror shows fading lights
+    - **Chorus 1** - Title: It's all in the rear-view mirror now
+    - **Verse 2** - Figurative: Problems hopefully subsiding, running away from having to deal with something hard. I don't know what lies in front of me I just know the problem is behind me and not something I'm going to face so that it shrinks out of existence
+    - **Chorus 2** - Title: It's all in the rear-view mirror now
+    - **Bridge** - Payoff: I don't know what's in front of me, but I know what's behind
+    - **Chorus 3** - Title: It's all in the rear-view mirror now
 2. *Yearn to Turn* - Tension/Response
     - **Verse 1** - How the tension is sensed
     - **Chorus 1** - The response
