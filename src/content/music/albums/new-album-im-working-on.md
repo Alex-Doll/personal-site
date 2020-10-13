@@ -5,19 +5,19 @@ date: 2020-09-20T22:44:05.589Z
 #### 6. Make a writable idea for each story point
 **Untitled Album**
 1. *In the Rear-View Mirror* - Literal/Figurative
-    - **Verse 1** - Literal: Driving away, late night the house shrinks behind me. Looking forward there is open road and darkness, the mirror shows fading lights
+    - **Verse 1** - Literal: Driving away, late night the house shrinks behind me. Looking forward there is open road and darkness, the mirror shows fading lights. Person is alone
     - **Chorus 1** - Title: It's all in the rear-view mirror now
     - **Verse 2** - Figurative: Problems hopefully subsiding, running away from having to deal with something hard. I don't know what lies in front of me I just know the problem is behind me and not something I'm going to face so that it shrinks out of existence
     - **Chorus 2** - Title: It's all in the rear-view mirror now
     - **Bridge** - Payoff: I don't know what's in front of me, but I know what's behind
     - **Chorus 3** - Title: It's all in the rear-view mirror now
 2. *Yearn to Turn* - Tension/Response
-    - **Verse 1** - How the tension is sensed
-    - **Chorus 1** - The response
-    - **Verse 2** - How the response is sensed
-    - **Chorus 2** - The response
-    - **Bridge** - How I feel about the response
-    - **Chorus 3** - The response
+    - **Verse 1** - How the tension is sensed: I don't wanna have to run away from my problems. I don't wanna wait until it all blows over. I feel like I want to stop running but don't know how. It's boiling up from inside, the steering wheel won't budge
+    - **Chorus 1** - The response: I have a yearn to turn back because I can't keep running
+    - **Verse 2** - How the response is sensed: My arms tighten as my grip tightens on the wheel, my foot poised to slam the brake. Leaning into the eventual turn around. Shaking because I still can't do it
+    - **Chorus 2** - The response: I have a yearn to turn back because I can't keep running
+    - **Bridge** - How I feel about the response: I don't know what'll happen, I don't know exactly how to turn back. I'm scared and confused, but know that I need to turn back
+    - **Chorus 3** - The response: I have a yearn to turn back because I can't keep running
 3. *Turn Back* - Problem/Declaration
     - **Verse 1** - The problem
     - **Chorus 1** - Declaration
