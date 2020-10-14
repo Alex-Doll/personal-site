@@ -19,47 +19,47 @@ date: 2020-09-20T22:44:05.589Z
     - **Bridge** - How I feel about the response: I don't know what'll happen, I don't know exactly how to turn back. I'm scared and confused, but know that I need to turn back
     - **Chorus 3** - The response: I have a yearn to turn back because I can't keep running
 3. *Turn Back* - Problem/Declaration
-    - **Verse 1** - The problem
-    - **Chorus 1** - Declaration
-    - **Verse 2** - The response
-    - **Chorus 2** - Declaration
-    - **Bridge** - What it means
-    - **Chorus 3** - Declaration
+    - **Verse 1** - The problem: If I want to stop running I have to face my problem. Problems don't fade away until I actually face them
+    - **Chorus 1** - Declaration: Turn back! Turn back! It's time to face the problem head on
+    - **Verse 2** - The response: Excited to finally start solving the problem and facing it, but unsure of how to actually deal with the problem without running
+    - **Chorus 2** - Declaration: Turn back! Turn back! It's time to face the problem head on
+    - **Bridge** - What it means: I can't keep lying to myself, I have to admit that there really is a problem and the problem might be me.
+    - **Chorus 3** - Declaration: Turn back! Turn back! It's time to face the problem head on
 4. *Face It, But How?* - Tension/Response
-    - **Verse 1** - How the tension is sensed
-    - **Chorus 1** - The response
-    - **Verse 2** - How the response is sensed
-    - **Chorus 2** - The response
-    - **Bridge** - How I feel about the response
-    - **Chorus 3** - The response
+    - **Verse 1** - How the tension is sensed: Playing it out in my head, preparing my statements, and trying to get my thoughts straight. I've never done this before, face a problem and be honest with myself
+    - **Chorus 1** - The response: I need to face the problem head on, but I really don't know how
+    - **Verse 2** - How the response is sensed: Should I be trying to face this problem even if I don't know how? What if I make the problem worse?
+    - **Chorus 2** - The response: I need to face the problem head on, but I really don't know how
+    - **Bridge** - How I feel about the response: Trying to face it, even if I don't know how, is better than not trying at all
+    - **Chorus 3** - The response: I need to face the problem head on, even though I really don't know how
 5. *This Time I Was Wrong* - Roles
-    - **Verse 1** - Role 1
-    - **Chorus 1** - Title
-    - **Verse 2** - Role 2
-    - **Chorus 2** - Title
-    - **Bridge** - Role 3/Payoff
-    - **Chorus 3** - Title
+    - **Verse 1** - Role 1: I was wrong about the problem we had, I want to face it head on. I'm sorry and I want to help solve it
+    - **Chorus 1** - Title: This time I was wrong
+    - **Verse 2** - Role 2: The partner is happy that they want to work through the problem, but is sad to see that the person has only realized that they are wrong about this time only
+    - **Chorus 2** - Title: This time I was wrong
+    - **Bridge** - Role 3/Payoff: Facing the first problem honestly and head on is an amazing start, but it's only that, start. The person needs to realize that it's more than just this time
+    - **Chorus 3** - Title: This time I was wrong
 6. *Too Little, Too Late* - Roles
-    - **Verse 1** - Role 1
-    - **Chorus 1** - Title
-    - **Verse 2** - Role 2
-    - **Chorus 2** - Title
-    - **Bridge** - Role 3/Payoff
-    - **Chorus 3** - Title
+    - **Verse 1** - Role 1: The partner is happy that the person has faced the problem and worked through it, but wants them to know that this one good instance doesn't cancel out all of the problems from before that the person ran from and let linger
+    - **Chorus 1** - Title: Too little, too late
+    - **Verse 2** - Role 2: I thought this was enough, trying to face this problem head on. How can this be too little when it's a huge effort? How can this be too late when I faced it so quickly?
+    - **Chorus 2** - Title: Too little, too late
+    - **Bridge** - Role 3/Payoff: The problems from the past never went away because they were never dealt with. A little problem from long ago will grow to a big problem over time and that's what has happened here. The partner breaks up with the person
+    - **Chorus 3** - Title: Too little, too late
 7. *Again* - Places
-    - **Verse 1** - Place 1 - the story begins
-    - **Chorus 1** - Title
-    - **Verse 2** - Place 2 - the story moves on
-    - **Chorus 2** - Title
-    - **Bridge** - Place 3/Payoff
-    - **Chorus 3** - Title
+    - **Verse 1** - Place 1 - the story begins: In the front room of the house where the argument just happened. My world has come crashing around me. I thought facing this problem would be my triumphant return, but it's not
+    - **Chorus 1** - Title: Again I'm alone
+    - **Verse 2** - Place 2 - the story moves on: In my car driving away, the house and now ex shrinking in the rear-view mirror. I can't go back this time, so I must keep looking forward
+    - **Chorus 2** - Title: Again I'm alone
+    - **Bridge** - Place 3/Payoff: It's not all bad because now I know what not to do next time. Don't let the problems build and only face one big one at the end, face every problem big or small right then and there
+    - **Chorus 3** - Title: Again I'm alone
 8. *Next Time* - Timezones
-    - **Verse 1** - Timezone 1 - the story begins
-    - **Chorus 1** - Title
-    - **Verse 2** - Timezone 2 - the story moves on
-    - **Chorus 2** - Title
-    - **Bridge** - Timezone 3/Payoff
-    - **Chorus 3** - Title
+    - **Verse 1** - Timezone 1 - the story begins: Driving away from the big breakup she really taught me a lesson. I shouldn't let problems build up, no matter how big or small. I need to face all problems head on right then and there and relationships will be as strong as they can be
+    - **Chorus 1** - Title: Next time I know exactly what to do
+    - **Verse 2** - Timezone 2 - the story moves on: Years pass and the new girl is great. We fought but we immediately addressed the issue and resolved it together. Every challenge we face, no matter how big or small, makes us stronger everyday
+    - **Chorus 2** - Title: Next time I know exactly what to do
+    - **Bridge** - Timezone 3/Payoff: Such a strong foundation we've built. The ground beneath us is now so stable that I feel strong enough to get down on one knee
+    - **Chorus 3** - Title: Next time I know exactly what to do
 
 ---
 
