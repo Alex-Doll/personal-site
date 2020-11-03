@@ -114,3 +114,7 @@ date: 2020-09-18T21:27:11.421Z
         * **Chorus 2** - Title
         * **Bridge** - Payoff
         * **Chorus 3** - Title
+
+### Musical Keys & Descriptions
+
+<img src="https://cdn.tutsplus.com/audio/uploads/2014/01/Key-descriptions.jpg" />
